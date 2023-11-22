@@ -158,7 +158,7 @@ button:hover {
     border-collapse: collapse;
     display: flex;
     padding: 1rem;
-    margin-left: 33rem;
+    margin-left: 50rem;
 }
 
 .Score th, .Score td {
