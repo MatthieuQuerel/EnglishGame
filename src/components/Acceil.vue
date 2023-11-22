@@ -181,9 +181,8 @@ button:hover {
     background-color: #1EB5BF;
     color: white;
 }
-
-@media screen and (max-width: 935px) {
-    .table {
+@media screen and (orientation: portrait) and (max-width: 935px) {
+  .table {
         width: 60%; /* Ajustez la largeur selon vos besoins */
         
         margin-top: 1%;
@@ -195,8 +194,24 @@ button:hover {
 
     .Score {
         width: 20%; /* Ajustez la largeur selon vos besoins */
-        margin-left: 20rem;
+        margin-left: 6rem;
         
+    }
+  }
+@media screen and (orientation: landscape) and (max-width: 935px){
+    .table {
+        width: 60%; /* Ajustez la largeur selon vos besoins */
+        
+        margin-top: 1%;
+    }
+    th, td {
+    width: 11%;
+    padding: 22px;
+}
+
+    .Score {
+        width: 15%; /* Ajustez la largeur selon vos besoins */  
+        margin-left:20rem;
     }
 }
 </style>
