@@ -211,7 +211,7 @@ button:hover {
 
     .Score {
         width: 15%; /* Ajustez la largeur selon vos besoins */  
-        margin-left:20rem;
+        margin-left:18rem;
     }
 }
 </style>
