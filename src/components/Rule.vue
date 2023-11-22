@@ -105,5 +105,20 @@ button:hover{
   }
 }
 
+@media screen and (orientation: portrait) and (max-width: 935px) {
+    .card {
+    width: 50%;
+    margin-left:100px;
+  
+
+  }
+  }
+@media screen and (orientation: landscape) and (max-width: 935px){
+    .card {
+    width: 50%;
+    margin-left:130px;
+  }
+}
+
 
 </style>
