@@ -38,10 +38,19 @@ button:hover{
     background-color: #fbf7f7;
     transition: box-shadow 0.10s;
   }
-  
-  @media screen and (max-width: 932px) {
-   
+  @media screen and (orientation: portrait) and (max-width: 935px) {
+ 
     button {
+        /* Nouveaux styles pour les écrans plus petits */
+        
+        margin-left: 325px;
+
+        width: auto;
+    }
+  }
+@media screen and (orientation: landscape) and (max-width: 935px){
+  
+  button {
         /* Nouveaux styles pour les écrans plus petits */
         
         margin-left: 550px;
